@@ -1,0 +1,2 @@
+python3 train.py --dataset_dir ./dataset/ --model_type GoogLeNet 
+python3 predict.py --test_datadir ./dataset/val --model_type GoogLeNet --output_path ./checkpoint/pred.csv --csv_path ./checkpoint/pred.csv --annos_path ./dataset/val/annotations.json
